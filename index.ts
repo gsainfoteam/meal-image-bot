@@ -4,7 +4,6 @@ import { load } from "cheerio";
 const app = new App({
   token: Bun.env.SLACK_BOT_TOKEN,
   appToken: Bun.env.SLACK_APP_TOKEN,
-  signingSecret: Bun.env.SLACK_SIGNING_SECRET,
   socketMode: true,
 });
 
